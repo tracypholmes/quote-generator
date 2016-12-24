@@ -1,0 +1,49 @@
+.css-selector {
+  font-family: 'Raleway', serif;
+}
+
+body {
+  background-color: #009999;
+  text-align: center;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ff9900;
+  color: white;
+  line-height: 50px;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  line-height: 100px;
+}
+div.img {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px 50px;
+}
+
+div.img {
+    float: inherit;
+    width: 700px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+.desc {
+    padding: 15px;
+    text-align: center;
+}
